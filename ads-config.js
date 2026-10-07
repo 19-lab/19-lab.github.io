@@ -11,18 +11,18 @@ window.BILOPHUS_ADS_CONFIG = {
        Lo vas a ver en el panel de Monetag, en tu Telegram Mini App,
        botón "Get SDK". Usá la zona principal, no una sub-zona.
        Dejalo vacío hasta que lo tengas. */
-  monetagZoneId: '',
+  monetagZoneId: '11977893',
 
   /* ► DATO 2 · Dirección (URL) del script del SDK de Monetag.
        Es el valor del atributo src="..." del <script> que te muestra
        Monetag en "Get instructions". Copialo tal cual.
        Dejalo vacío hasta que lo tengas. */
-  monetagSdkSrc: '',
+  monetagSdkSrc: '//libtl.com/sdk.js',
 
   /* (Opcional) Nombre de la función global del SDK. Si lo dejás vacío se
      usa 'show_' + el ID de zona, que es lo que indica la documentación
      de Monetag (data-sdk="show_XXX"). */
-  monetagFunctionName: '',
+  monetagFunctionName: 'show_11977893',
 
   /* Anuncio de PRUEBA de 5 segundos (no es publicidad real):
        true  → se usa cuando Monetag NO está configurado, y en la versión web.
