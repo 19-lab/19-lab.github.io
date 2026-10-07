@@ -30,7 +30,7 @@ window.BILOPHUS_ADS_CONFIG = {
      Dentro de Telegram, una vez cargados los dos datos de arriba, NUNCA se
      usa el anuncio de prueba, sin importar este valor.
      Recomendado: poné false antes de publicar el juego para el público. */
-  allowSimulation: true,
+  allowSimulation: false,
 
   /* Precargar el anuncio para que aparezca sin demora (recomendado). */
   preload: true
